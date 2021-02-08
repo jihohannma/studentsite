@@ -132,6 +132,20 @@ footer {
     margin: 2em;
 }
 
+/* STYLING FOR PAGE-HOME */
+.page-home .hero{
+    background-image: url('../img/davisuko-5E5N49RWtbA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30vh 1em;
+}
+
+.page-home header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
 /* LAYOUT */
 .container {
     max-width: 1000px;
