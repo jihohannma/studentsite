@@ -121,7 +121,8 @@ img {
 
 /* BUTTONS */
 .button,
-button {
+button,
+form input[type=submit] {
     font-size: inherit;
     line-height: 1;
     background-color:orange;
@@ -135,7 +136,8 @@ button {
 }
 
 .button:hover,
-button:hover {
+button:hover,
+form input[type=submit]:hover {
     background-color: rgb(255, 102, 0);
     border-color: rgb(255, 102, 0);
     text-decoration: none;
@@ -476,6 +478,43 @@ blockquote {
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
+}
+
+/* FORMS */
+
+form {
+    max-width: 600px;
+    margin: 2em auto;
+}
+
+form label,
+form input,
+form textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+form label {
+    margin-top: 1.25em;
+    margin-bottom: .25em;
+}
+
+form input[type="text"],
+form textarea {
+    border: 1px solid #ccc;
+    padding: 1em;
+    font-size: 1em;
+    color:rgb(66, 66, 66);
+}
+
+form textarea {
+    min-height: 10em;
+}
+
+form input[type=submit] {
+    margin-top: 1.7em;
+    width: auto;
 }
 
 
