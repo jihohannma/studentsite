@@ -95,10 +95,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
     color:rgba(209, 59, 0, 1);
     text-decoration: underline;
-}
+} */
 
 /* HELPER CLASSES */
 .text-centered {
@@ -125,37 +125,37 @@ button,
 form input[type=submit] {
     font-size: inherit;
     line-height: 1;
-    background-color:orange;
+    background-color:rgb(255, 92, 32);
     color: rgba(255,255,255, 1);
-    padding: .8em;
+    padding: 1.2em;
     display: inline-block;
     margin: .5em .5em .5em 0;
     text-align: center;
-    border-radius: .5em;
-    border: 1px solid orange;
+    border-radius: 0em;
+    border: 1px solid rgb(255, 92, 32);
 }
 
-.button:hover,
+/* .button:hover,
 button:hover,
 form input[type=submit]:hover {
     background-color: rgb(255, 102, 0);
     border-color: rgb(255, 102, 0);
     text-decoration: none;
     color:rgba(255,255,255, 1);
-}
+} */
 
 .button.alt {
-    border: 1px solid orange;
-    background-color: transparent;
-    color: orange;
+    border: 1px solid green;
+    background-color: green;
+    color: rgba(255,255,255, 1);
 }
 
-.button.alt:hover {
+/* .button.alt:hover {
     background-color: rgb(255, 102, 0);
     border-color: rgb(255, 102, 0);
     text-decoration: none;
     color: rgba(255,255,255,1);
-}
+} */
 
 /* LAYOUT */
 
@@ -559,4 +559,54 @@ form input[type=submit] {
     }
 }
 
+/* FOR FINAL V1 */
+@media (min-width:768px) {
+    .site-nav {
+        /* background-color: blue; */
+        font-size: 80%;
+    }
+    .site-nav li {
+        /* background-color: blue; */
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .row img  {
+        margin-bottom: 1.5em;
+    }
+}
 
+.site-main .hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y: 100%;
+    padding: 23vh;
+    color: rgba(0,0,0,0);
+}
+
+.row .button {
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    width: 500px;
+}
+
+/* .site-nav .sign {
+    display: inline-block;
+    font-size: 80%;
+    background-color: khaki;
+    margin-top: -1.2%;
+} */
+
+.site-id h1 img {
+    max-width: 150px;
+    padding-top: .2em;
+}
+
+.column.one-third p,h6 {
+    text-align: center;
+}
+
+.column.one-third p {
+    font-size: 80%;
+}
