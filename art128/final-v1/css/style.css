@@ -404,7 +404,7 @@ section {
     /* LOGO PLACE ON SMALL SCREENS */
     .site-id {
         /* background-color: slateblue; */
-        margin-top: .8em;
+        margin-top: .4em;
     }
 }
 
@@ -547,10 +547,16 @@ form input[type=submit] {
 
 #about {
     background: rgba(0,0,0,0.05);
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 3em;
 }
 
 #contact {
-    background: rgba(0,0,0,.1);
+    background: rgba(0,0,0,0.05);
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 3em;
 }
 
 @media (min-width:768px) {
@@ -610,3 +616,47 @@ form input[type=submit] {
 .column.one-third p {
     font-size: 80%;
 }
+
+.container .nutrition img,
+.catering img {
+    border-radius: 2em;
+    max-width: 500px;
+    max-height: 399px;
+    overflow: hidden;
+}
+
+.container .nutrition h3,p {
+    display: inline-block;
+    text-align: center;
+    max-width: 1000px;
+    justify-content: right;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.bottom > .reward {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.bottom > .responsibility {
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.bottom .reward img,
+.responsibility img {
+    border-radius: 2em;
+    max-width: 300px;
+    max-height: 220px;
+}
+
+
+
+
+
