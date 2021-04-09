@@ -101,7 +101,7 @@ a {
 } */
 
 /* HELPER CLASSES */
-.text-centered {
+/* .text-centered {
     text-align: center;
 }
 .full-width {
@@ -111,7 +111,7 @@ a {
 .horiz-center {
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* IMAGES */
 img {
@@ -120,7 +120,7 @@ img {
 }
 
 /* BUTTONS */
-.button,
+/* .button,
 button,
 form input[type=submit] {
     font-size: inherit;
@@ -133,7 +133,7 @@ form input[type=submit] {
     text-align: center;
     border-radius: 0em;
     border: 1px solid #ff6305;
-}
+} */
 
 /* .button:hover,
 button:hover,
@@ -148,6 +148,15 @@ form input[type=submit]:hover {
     border: 1px solid #007906;
     background-color: #007906;
     color: rgba(255,255,255, 1);
+}
+
+.button {
+    display: inline-block;
+    font-size: inherit;
+    line-height: 1;
+    background-color:#ff6305;
+    color: rgba(255,255,255, 1);
+    padding: 1.2em;
 }
 
 /* .button.alt:hover {
@@ -372,8 +381,8 @@ section {
         text-align: center;
     }
     .toggle-nav .site-nav a:hover {
-        background-color: orange;
-        color: white;
+        background-color: #ffe851;
+        color: rgba(0,0,0,.8);
     }
     .toggle-nav[data-navstate="closed"] ul {
         height: 0;
@@ -483,7 +492,7 @@ blockquote {
 
 /* FORMS */
 
-form {
+/* form {
     max-width: 600px;
     margin: 2em auto;
 }
@@ -516,7 +525,7 @@ form textarea {
 form input[type=submit] {
     margin-top: 1.7em;
     width: auto;
-}
+} */
 
 /* CUSTOM SITE CSS */
 
@@ -588,13 +597,25 @@ form input[type=submit] {
     background-position-y: 100%;
     padding: 23vh;
     color: rgba(0,0,0,0);
+    max-width: 100%;
+    height: auto;
 }
+
+/* .selector img{
+    position: absolute; top:0; left: 0;
+    width: 100%;
+    height: auto;
+} */
 
 .row .button {
     display: inline-block;
     justify-content: space-between;
     text-align: center;
     width: 500px;
+}
+
+.row .button.scroll {
+    font-weight: bold;
 }
 
 /* .site-nav .sign {
@@ -617,29 +638,29 @@ form input[type=submit] {
     font-size: 80%;
 }
 
-.container .nutrition img,
+/* .container .nutrition img,
 .catering img {
     border-radius: 2em;
     max-width: 500px;
     max-height: 399px;
     overflow: hidden;
-}
+} */
 
-.container .nutrition h3,p {
+/* .container .nutrition h3,p {
     display: inline-block;
     text-align: center;
     max-width: 1000px;
     justify-content: right;
-}
+} */
 
-.bottom {
+/* .bottom {
     display: flex;
     justify-content: space-between;
     margin-right: 400px;
     margin-left: 400px;
-}
+} */
 
-.bottom > .reward {
+/* .bottom > .reward {
     margin-left: -10px;
     margin-right: 10px;
 }
@@ -654,13 +675,96 @@ form input[type=submit] {
     border-radius: 2em;
     max-width: 300px;
     max-height: 220px;
-}
+} */
 
 .site-footer {
     background-color: #8ccd33;
 }
 
+.site-footer a {
+    font-weight: bold;
+    color: #007906;
+}
 
+.site-footer ul {
+    justify-content: left;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.row p {
+    text-align: center;
+}
+
+.mid .row .button {
+    display: flex;
+    font-size: 70%;
+    padding: 0;
+    max-width: 100px;
+    justify-content: center;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    margin-top: 4em;
+}
+
+.mid .row .button.first {
+    background-color: #007906;
+}
+
+.mid .row .button.second {
+    background-color: #8ccd33;
+}
+
+.bottom .row .button {
+    display: flex;
+    font-size: 70%;
+    padding:0;
+    max-width: 130px;
+    justify-content: center;
+    padding-top: .8em;
+    padding-bottom: .8em;
+}
+
+.container .mid img {
+    border-radius: 2em;
+    max-height: 400px;
+}
+
+.container .mid .column.one-half.catering img {
+    border-radius: 2em;
+    max-height: 360px;
+}
+
+.bottom {
+    margin-bottom: 3em;
+}
+
+.bottom .row img {
+    border-radius: 2em;
+    max-width: 250px;
+    max-height: 200px;
+}
+
+/* .cropping {
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.cropping img {
+    border-radius: 2em;
+    max-width: initial;
+} */
+
+.bottom p {
+    text-align: left;
+    margin-top: 4em;
+}
+
+.bottom h3 {
+    margin-bottom: 1em;
+}
 
 
 
