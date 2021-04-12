@@ -591,10 +591,11 @@ form input[type=submit] {
 }
 
 .site-main .hero {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/herohero.jpg);
     background-size: cover;
-    background-position-x: 0;
-    background-position-y: 100%;
+    background-position: center;
+    /* background-position-x: 0;
+    background-position-y: 100%; */
     padding: 23vh;
     color: rgba(0,0,0,0);
     max-width: 100%;
@@ -739,6 +740,10 @@ form input[type=submit] {
 
 .bottom {
     margin-bottom: 3em;
+    background-image: url(../img/circle.png);
+    background-repeat: no-repeat;
+    
+    
 }
 
 .bottom .row img {
@@ -746,6 +751,7 @@ form input[type=submit] {
     max-width: 250px;
     max-height: 200px;
 }
+
 
 /* .cropping {
     max-width: 300px;
@@ -766,5 +772,8 @@ form input[type=submit] {
     margin-bottom: 1em;
 }
 
+.site-footer img {
+    size: 30%;
+}
 
 
