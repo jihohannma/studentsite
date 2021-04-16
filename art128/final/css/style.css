@@ -543,11 +543,15 @@ section {
     max-height: 380px;
 }
 
-/* .bottom {
+.mid {
+    background-image: url(../img/mid\ back.png);
+}
+
+.bottom {
     margin-bottom: 3em;
     background-image: url(../img/circle.png);
-    background-repeat: no-repeat;   
-} */
+        background-repeat: no-repeat;  
+}
 
 /* .back {
     background-image: url(../img/circle.png);
@@ -561,10 +565,10 @@ section {
             width: 90%;
 } */
 
-.back img {
+/* .back img {
     position: absolute;
     background-repeat: no-repeat;
-}
+} */
 
 .bottom .row img {
     border-radius: 2em;
