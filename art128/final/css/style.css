@@ -531,16 +531,17 @@ section {
     justify-content: center;
     padding-top: .8em;
     padding-bottom: .8em;
+    margin-top: 2em;
 }
 
 .container .mid img {
     border-radius: 2em;
-    max-height: 400px;
+    /* max-height: 400px; */
 }
 
 .container .mid .column.one-half.catering img {
     border-radius: 2em;
-    max-height: 380px;
+    /* max-height: 380px; */
 }
 
 .mid {
@@ -550,37 +551,23 @@ section {
     border-radius: 2em;
 }
 
+.mid .row h3,
+.mid .row p {
+    padding-top: 1em;
+}
+
 .mid .row > .column {
     margin-bottom: 0%;
 }
 
 .bottom {
-    margin-bottom: 3em;
     background-image: url(../img/circle.png);
         background-repeat: no-repeat;  
 }
 
-/* .back {
-    background-image: url(../img/circle.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: left;
-            position: absolute;
-            height: -50%;
-            max-width: 1500px;
-            right: 75%;
-            width: 90%;
-} */
-
-/* .back img {
-    position: absolute;
-    background-repeat: no-repeat;
-} */
-
 .bottom .row img {
     border-radius: 2em;
-    max-width: 250px;
-    max-height: 200px;
+    max-width: 100%;
 }
 
 /* .cropping {
@@ -595,17 +582,23 @@ section {
 
 .bottom p {
     text-align: left;
-    margin-top: 4em;
+    margin-top: 5em;
 }
 
 .bottom h3 {
     margin-bottom: 1em;
+    text-align: left;
 }
 
-.site-footer img {
-    size: 30%;
+.site-nav .fa {
+    padding: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 100px;
+    text-align: right;
 }
 
+/* HEADER SIGN IN AND UP */
 .sign {
     display: flex;
     background-color: #8ccd33;
@@ -627,15 +620,6 @@ section {
 
 .site-nav {
     padding-top: .5em;
-}
-
-.mid .row h3,
-.mid .row p {
-    padding-top: 1em;
-}
-
-.site-nav .social.media {
-    padding-left: 5em;
 }
 
 .swiper-container {
