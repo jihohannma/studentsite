@@ -646,9 +646,11 @@ section {
     padding-top: .5em;
 }
 
+/* SWIPER */
 .swiper-container {
-    width: 600px;
-    height: 300px;
-  }
+    width: 100%;
+    height: 100%;
+}
+
 
 
