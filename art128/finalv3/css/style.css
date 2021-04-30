@@ -236,7 +236,7 @@ body.demo::before {
 
 /* SITE HEADER */
 .site-header {
-    padding: .5em 0em;
+    padding: 0 0 .5em 0;
 }
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
@@ -551,7 +551,10 @@ section {
     border-radius: 2em;
 }
 
-.mid .row h3,
+.mid .row h3 {
+    padding-top: 2em;
+}
+
 .mid .row p {
     padding-top: 1em;
 }
@@ -561,13 +564,27 @@ section {
 }
 
 .bottom {
+    position: relative;
+}
+
+.bottom::before {
     background-image: url(../img/circle.png);
         background-repeat: no-repeat;  
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
 }
 
 .bottom .row img {
     border-radius: 2em;
     max-width: 100%;
+}
+
+#REWARD img {
+    position: absolute;
+    margin-left: 3em;
 }
 
 /* .cropping {
@@ -582,7 +599,7 @@ section {
 
 .bottom p {
     text-align: left;
-    margin-top: 5em;
+    margin-top: 5.5em;
 }
 
 .bottom h3 {
@@ -602,20 +619,27 @@ section {
 .sign {
     display: flex;
     background-color: #8ccd33;
-    margin-top: -.7em;
     font-size: 80%;
-    padding: .5em 0;
-    list-style: none;
+    padding: 0 .5em;
     justify-content: flex-end;
 }
 
-.sign li {
-    margin-left: 1em;
-    color: white;
+.sign ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
 }
 
-.sign .right {
-    margin-right: 410px;
+.sign li {
+    margin: 0;
+    padding: 0;
+}
+
+.sign a {
+    padding: 1em;
+    display: inline-block;
+    color: white;
 }
 
 .site-nav {
