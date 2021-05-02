@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- FOR SWIPER.JS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css"> <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> <script src="https://unpkg.com/swiper/js/swiper.js"></script> <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
 
     <!-- MAIN CSS FILE -->
     <link rel="stylesheet" href="css/style.css">
@@ -76,6 +76,7 @@
             <h3>MENU</h3>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+
                         <div class="swiper-slide">
                             <div class="row">
                                 <div class="column one-fourth">
@@ -117,6 +118,49 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- SWIPER SLIDE 2 -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="column one-fourth">
+                                        <img src="img/blt.jpg" alt="Square 1x1 Placeholder Image"
+                                        width="1500" height="1500"  />
+                                        <h6>Turkey</h6>
+                                        <p>Crispy bacon, lettuce and tomato on
+                                            fresh bread of your choice. This
+                                            sandwich offers a light and tasty
+                                            lunch, snack or dinner.</p>
+                                    </div>
+                                    <div class="column one-fourth">
+                                        <img src="img/bmt.jpg" alt="Square 1x1 Placeholder Image"
+                                        width="1500" height="1500"  />
+                                        <h6>Ham</h6>
+                                        <p>The Italian B.M.T.® sandwich is filled
+                                            with Genoa salami, spicy pepperoni,
+                                            and Black Forest Ham. Big. Meaty.
+                                            Tasty. Get it. </p>
+                                    </div>
+                                    <div class="column one-fourth">
+                                        <img src="img/tuna.jpg" alt="Square 1x1 Placeholder Image"
+                                        width="1500" height="1500"  />
+                                        <h6>Veggie</h6>
+                                        <p>You’ll love every bite of our classic
+                                            tuna sandwich. 100% wild caught
+                                            tuna blended with creamy mayo then
+                                            topped with your choice. </p>
+                                    </div>
+                                    <div class="column one-fourth">
+                                        <img src="img/spicy italian.jpg" alt="Square 1x1 Placeholder Image"
+                                        width="1500" height="1500"  />
+                                        <h6>Subway Club</h6>
+                                        <p>Our Spicy Italian sandwich is a
+                                            combo of pepperoni and Genoa
+                                            salami. Pile on cheese, crunchy
+                                            veggies, and your favorite sauce.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -164,28 +208,41 @@
     </section>
 
     <section id="REWARD">
-            <img circle src="img/circle.png" alt="Avatar">
         <div class="container">
             <div class="bottom">
+
                 <div class="row">
-                    <div class="column one-fourth">
-                        <h3>REWARD&DEALS</h3>
-                        <img src="img/캡처.JPG" alt="reward image"
-                        width="250" height="180">
-                    </div>
-                    <div class="column one-fourth">
-                        <p>Download the app to automatically enroll. Don’t waste another minute. You could be earning rewards on all qualifying purchases right now!</p>
-                        <a href="#" class="button">DOWNLOAD APP</a>
-                    </div>
-                     <div class="column one-fourth">
-                        <h3>RESPONSIBILITY</h3>
-                        <div class="cropping">
-                            <img src="img/recycle.jpg" alt="recycle image"
-                            width="250" height="180">
+                    <div class="column one-half">
+                        <h3>REWARDS &amp; DEALS</h3>
+
+                        <div class="row">
+                            <div class="column one-half">
+                                <img src="img/캡처.JPG" alt="reward image" width="250" height="180">
+                            </div>
+                            <div class="column one-half">
+                                <p>Download the app to automatically enroll. Don’t waste another minute. You could
+                                    be
+                                    earning rewards on all qualifying purchases right now!</p>
+                                <a href="#" class="button">DOWNLOAD APP</a>
+                            </div>
                         </div>
+
                     </div>
-                    <div class="column one-fourth">
-                        <p>Preserving out planet is critical, so we look to reduce our environmental impact through sustainable packaging, sustainable agriculture, and more.</p>
+                    <div class="column one-half">
+                        <h3>RESPONSIBILITY</h3>
+
+                        <div class="row">
+                            <div class="column one-half">
+                                <img src="img/recycle.jpg" alt="recycle image" width="250" height="180">
+                            </div>
+                            <div class="column one-half">
+                                <p>Preserving out planet is critical, so we look to reduce our environmental impact
+                                    through
+                                    sustainable packaging, sustainable agriculture, and more.</p>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -216,9 +273,30 @@
 </footer>
 
 
+    <!-- FOR SWIPER.JS -->
+    <script src="swiper/swiper-bundle.min.js"></script>
 
-    <!-- SWIPER JS FILE -->
-    <script src="js/swiper.js"></script>
+    <script>
+
+        const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        loop: true,
+        spaceBetween: 50,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        });
+
+    </script>
 
     <!-- SCROLL JS FILE -->
     <script src="js/scroll.js"></script>
