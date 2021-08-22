@@ -120,6 +120,7 @@ footer {
 }
 
 .courses ul {
+    text-align: center;
     margin: 0;
     padding: 0;
     list-style: none;
