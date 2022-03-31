@@ -1,0 +1,97 @@
+/* MAIN PAGE FOLDER WORK */
+
+$gridgap: 2%;
+
+#work {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    // grid-row-gap: -1em;
+    grid-column-gap: 2em;
+    grid-template-rows: repeat(4, 530px);
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5em 0;
+}
+
+.folder {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+
+        .folder-top {
+            width: 100%;
+            height: 8%;
+            background: $color-accent;
+            transform: skew(10deg) translate(-60%);
+            position: relative;
+            top: 7px;
+            border-radius: 10px;
+        }
+
+        .folder-square {
+            background: $color-accent;
+            width: 100%;
+            height: 74%;
+            position: relative;
+            border-radius: 10px;
+            z-index: 1;
+        }
+
+        .folder-square img {
+            border-radius: 10px;
+            width: 94%;
+            height: 75%;
+            margin: 3%;
+            margin-bottom: 0;
+            object-fit: cover;
+            overflow: hidden;
+        }
+
+        .folder-text {
+            display: flex;
+            align-items: center;
+            margin-top: 0.3em;
+            h2 {
+                margin-top: 2.5%;
+                margin-left: 3%;
+            }
+            p {
+                margin-top: 0.5em;
+                margin-left: 4%;
+                color: rgb(255, 255, 255);
+                padding: 0.2em 0.5em;
+                background-color: $color-accent-with;
+                border-radius: 7px;
+            }
+        }
+
+        .folder-white {
+            background: white;
+            width: 94%;
+            height: 92%;
+            position: relative;
+            top: 3.5%;
+            left: 3%;
+            border-radius: 10px;
+        }
+}
+
+/* FOLDER COLORS */
+.folder-top.first,
+.folder-square.first {
+    background-color: $color-link;
+}
+
+/* SUB-PAGE */
+.sub-container {
+    padding: 3em 0;
+    font-family: $font-family-sans;
+
+    h3 {
+        font-weight: 400;
+        margin-top: 0.2em;
+    }
+}

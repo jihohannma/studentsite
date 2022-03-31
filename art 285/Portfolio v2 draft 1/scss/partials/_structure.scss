@@ -1,0 +1,201 @@
+// HERO 
+.hero {
+    padding: 3em 0;
+}
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: $font-family-sans;
+
+    .hero-left {
+        margin-top: 1em;
+
+        h1 {
+            font-size: 4em;
+            line-height: 1.3;
+            text-align: left;
+        }
+        h2 {
+            font-size: 2em;
+            line-height: 1.5;
+            margin: 0;
+        }
+    }
+
+    .hero-right {
+        max-width: 50%;
+    }
+}
+
+// SUB-HERO
+.sub-hero {
+    .annualreport {
+    background-image: url(../img/annualreport/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30vh 1em;
+    }
+
+    .jammy {
+        background-image: url(../img/jammy/Jammy.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .holidaycard {
+        background-image: url(../img/holidaycard/cover.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .leahi {
+        background-image: url(../../img/leahicover/cover1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .olympic {
+        background-image: url(../img/olympic/cover.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .petmily {
+        background-image: url(../img/petmily/cover.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .subway {
+        background-image: url(../img/subway/Mockup1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .tourism {
+        background-image: url(../img/tourismlogo/nathan-riley-k-7nACY1gC0-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .yours {
+        background-image: url(../img/yours/Logo-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    .untact {
+        background-image: url(../img/untact/Untact1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30vh 1em;
+    }
+
+    h1 {
+        display: none;
+        font-size: 3em;
+        justify-content: center;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.39);
+    }
+}
+
+#sub-work {
+    .annualreport-back {
+        background-color: $color-link;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .jammy-back {
+        background-color: pink;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .holidaycard-back {
+        background-color: orange;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .leahi-back {
+        background-color: skyblue;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .olympic-back {
+        background-color: darkblue;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .petmily-back {
+        background-color: brown;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .subway-back {
+        background-color: green;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .tourism-back {
+        background-color: lightsalmon;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .yours-back {
+        background-color: lightseagreen;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .untact-back {
+        background-color: lightcoral;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+}
