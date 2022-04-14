@@ -1,0 +1,38 @@
+/* GLOBAL RESETS */
+* { box-sizing: border-box;}
+html { background-color: rgb(255, 255, 255); }
+body { margin:0; }
+#sub-work { background-color: rgba(255, 235, 193, 0.11);}
+
+//VARIABLES
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: rgb(252, 236, 165);
+$color-link: rgb(163, 201, 25);
+$color-link-darker: rgb(124, 150, 32);
+$color-accent-with: rgb(255, 186, 38);
+
+// $color-lightgrey: rgba(0,0,0,.5);
+
+$font-family-sans: 'arboria', Helvetica, sans-serif;
+$font-family-serif: Georgia, 'Times New Roman', Times, serif;
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// a tag 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+// IMPORT
+@import "partials/sitenav";
+@import "partials/layout";
+@import "partials/animation";
+@import "partials/structure";
+@import "partials/media";
+@import "partials/grid";
+@import "partials/typography";
